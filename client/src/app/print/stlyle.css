@@ -1,0 +1,74 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap"); */
+@media print {
+  .container1 {
+    /* Set page size and margins for printing */
+    margin: 0;
+    width: 4in;
+  }
+
+  /* Additional print-specific styles, if needed */
+  .column ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column li p {
+    margin-bottom: 0;
+  }
+  .column li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 11rem;
+    flex-direction: column;
+    background-color: red;
+    width: 47%;
+  }
+  .column li svg {
+    width: 300px;
+    height: 200px;
+  }
+  .column li:nth-child(even) {
+    margin-left: 40px;
+  }
+  .column li:nth-child(odd) {
+    margin-left: -15px;
+  }
+}
+
+.column ul {
+  list-style: none;
+  /* border: 1px solid #000; */
+}
+/* .column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 6in;
+  row-gap: 35px;
+}
+
+.column li {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 140px;
+  flex-direction: column;
+  width: 3in;
+  background-color: red;
+}
+
+.column li svg {
+  object-fit: cover;
+  height: 1in;
+}
+.column li p {
+  margin: 0;
+  margin-top: -19px;
+  font-size: 1rem;
+} */

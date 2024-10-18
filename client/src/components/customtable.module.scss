@@ -1,0 +1,23 @@
+.th_header_styles {
+  border: none !important;
+
+  tr {
+
+    th {
+      background-color: var(--maincolor);
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      padding: 5px 12px !important;
+    }
+
+  }
+}
+
+.table_data {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000 !important;
+  padding: 5px 12px !important;
+  border-bottom: none !important;
+}

@@ -1,0 +1,48 @@
+{
+  "name": "creando_new_admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
+    "lint": "next lint",
+    "prettier:write": "prettier --write .",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@tanstack/react-query": "^5.24.1",
+    "@tanstack/react-table": "^8.13.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^3.6.0",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.30.1",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "react": "^18",
+    "react-barcode": "^1.5.3",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18",
+    "react-hook-form": "^7.50.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-select": "^5.8.0",
+    "sass": "^1.71.1",
+    "sharp": "^0.33.2",
+    "swiper": "^11.1.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.24.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.2.5",
+    "typescript": "^5"
+  }
+}
